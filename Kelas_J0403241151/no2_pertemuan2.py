@@ -14,6 +14,6 @@ while True:
     print("Bilangan terbesar:", max_num)
     print("Bilangan terkecil:", min_num)
     # Meminta pengguna untuk melanjutkan atau berhenti
-    lanjut = input("Apakah Anda ingin   menjumlahkan lagi? (y/n): ").lower()
+    lanjut = input("Apakah Anda ingin menjumlahkan lagi? (y/n): ").lower()
     if lanjut != 'y':
         break
