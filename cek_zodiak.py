@@ -1,34 +1,34 @@
-# tanggal = int(input("Masukkan tanggal lahir: "))
-# bulan = int(input("Masukkan bulan lahir (dalam angka): "))
+tanggal = int(input("Masukkan tanggal lahir: "))
+bulan = int(input("Masukkan bulan lahir (dalam angka): "))
 
-# if tanggal >= 21 and bulan == 3 or tanggal <= 19 and bulan == 4:
-#     zodiak = "Aries"
-# elif tanggal >= 20 and bulan == 4 or tanggal <= 20 and bulan == 5:
-#     zodiak = "Taurus"
-# elif tanggal >= 21 and bulan == 5 or tanggal <= 20 and bulan == 6:
-#     zodiak = "Gemini"
-# elif tanggal >= 21 and bulan == 6 or tanggal <= 22 and bulan == 7:
-#     zodiak = "Cancer"
-# elif tanggal >= 23 and bulan == 7 or tanggal <= 22 and bulan == 8:
-#     zodiak = "Leo"
-# elif tanggal >= 23 and bulan == 8 or tanggal <= 22 and bulan == 9:
-#     zodiak = "Virgo"
-# elif tanggal >= 23 and bulan == 9 or tanggal <= 22 and bulan == 10:
-#     zodiak = "Libra"
-# elif tanggal >= 23 and bulan == 10 or tanggal <= 21 and bulan == 11:
-#     zodiak = "Scorpio"
-# elif tanggal >= 22 and bulan == 11 or tanggal <= 21 and bulan == 12:
-#     zodiak = "Sagittarius"
-# elif tanggal >= 22 and bulan == 12 or tanggal <= 19 and bulan == 1:
-#     zodiak = "Capricorn"
-# elif tanggal >= 20 and bulan == 1 or tanggal <= 18 and bulan == 2:
-#     zodiak = "Aquarius"
-# elif tanggal >= 19 and bulan == 2 or tanggal <= 20 and bulan == 3:
-#     zodiak = "Pisces"
-# else:
-#     zodiak = "Zodiak tidak valid"
+if tanggal >= 21 and bulan == 3 or tanggal <= 19 and bulan == 4:
+    zodiak = "Aries"
+elif tanggal >= 20 and bulan == 4 or tanggal <= 20 and bulan == 5:
+    zodiak = "Taurus"
+elif tanggal >= 21 and bulan == 5 or tanggal <= 20 and bulan == 6:
+    zodiak = "Gemini"
+elif tanggal >= 21 and bulan == 6 or tanggal <= 22 and bulan == 7:
+    zodiak = "Cancer"
+elif tanggal >= 23 and bulan == 7 or tanggal <= 22 and bulan == 8:
+    zodiak = "Leo"
+elif tanggal >= 23 and bulan == 8 or tanggal <= 22 and bulan == 9:
+    zodiak = "Virgo"
+elif tanggal >= 23 and bulan == 9 or tanggal <= 22 and bulan == 10:
+    zodiak = "Libra"
+elif tanggal >= 23 and bulan == 10 or tanggal <= 21 and bulan == 11:
+    zodiak = "Scorpio"
+elif tanggal >= 22 and bulan == 11 or tanggal <= 21 and bulan == 12:
+    zodiak = "Sagittarius"
+elif tanggal >= 22 and bulan == 12 or tanggal <= 19 and bulan == 1:
+    zodiak = "Capricorn"
+elif tanggal >= 20 and bulan == 1 or tanggal <= 18 and bulan == 2:
+    zodiak = "Aquarius"
+elif tanggal >= 19 and bulan == 2 or tanggal <= 20 and bulan == 3:
+    zodiak = "Pisces"
+else:
+    zodiak = "Zodiak tidak valid"
 
-# print("Zodiak Anda adalah", zodiak)
+print("Zodiak Anda adalah", zodiak)
 
 #################################################################################
 
