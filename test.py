@@ -1,3 +1,6 @@
-a = 5
-a &= not(2)
-print(a)
+try:
+    angka = int(input("Masukkan angka: "))
+except ValueError:
+    print("Input tidak valid, harap masukkan angka.")
+    exit()
+print(angka)
